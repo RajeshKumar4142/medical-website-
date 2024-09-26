@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Train+One&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.about{
+    margin-top: 9rem;
+}
+.about_section{
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background: #e5ecf0c0 ;
+}
+
+@media (max-width: 768px) {
+    .about_section{
+      margin-top: 1rem;
+      padding: 1rem;
+      flex-direction: column;
+    }
+    /* img {
+      width: 100%;
+      height: auto;
+    } */
+  }
+.about_text{
+    /* background-color: rgba(105, 91, 91, 0.561); */
+}
+
+.img_about{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    /* background-color: rgba(128, 128, 128, 0.507); */
+    border-radius: 5px;
+}
+
+.about_h1{
+    color: #000000;
+    font-family: "Train One", system-ui;
+    font-size: 46px;
+    font-weight: 200;
+    text-align: center;
+}
+.about_h2{
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 1rem;
+    text-align: center;
+}
+.about_text h4{
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    text-align: start; 
+}
+
+.about_text p{
+    color: #000000;
+    font-family: "Lato", Sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+}
+.about_button{
+    margin-top: 3rem;
+}
+.about_home{
+    margin-top: 1rem;
+    margin-left: 4rem;
+}
+.about_home_h1{
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    /* font-family: "Train One", system-ui; */
+    font-size: 46px;
+    font-weight: 500;
+}
+.about_home p{
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 1rem;
+}

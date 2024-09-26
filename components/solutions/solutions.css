@@ -1,0 +1,220 @@
+.solution{
+    margin-top: 8.7rem;
+}
+.home_solution{
+    display: flex;
+    
+}
+
+.left_content {
+    padding: 20px;
+  }
+  
+  .left_content h6 {
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+  }
+  
+ 
+
+  
+
+.oursolution{
+    background-color: #e5ecf0c0;
+}
+.work_image_pay img {
+    width: 100%;
+    height: auto;
+}
+.span_work{
+    /* font: 20px "worksans"sans-serif; */
+    display: flex;
+    margin-left: 3rem;
+    font-size: 20px;
+    font-weight: 430;
+    color: #1c1c1c;
+}
+.icon_work{
+    margin-right: 1.5rem;
+    font-size: 25px;
+    color: #008cff;
+}
+.side_menu ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+.side_menu li{
+    list-style: none;
+}
+.side_menu a{
+    text-decoration: none;
+    color: #6d8b9b;
+}
+ .side_menu a:hover{
+    color: #ff0000b2;
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+.side_menu_two{
+    list-style: none;
+    text-decoration: none;
+    
+}
+.side_menu_two a{
+    text-decoration: none;
+    color: #1c1c1c;
+    font-weight: bolder;
+}
+@media (max-width: 768px) {
+    .content {
+      flex-direction: column;
+    }
+    .text-section, .image-section {
+      max-width: 100%;
+    }
+    .home_solution {
+      flex-direction: column;
+    }
+    .col-md-2, .col-md-4, .col-md-6 {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .span_work {
+      margin-left: 0;
+    }
+  }
+
+
+  @media (max-width: 767px) {
+    .work_image_pay img {
+        width: 90%;
+        height: auto;
+    }
+}
+
+.button_work_two{
+    margin-top: 2.7rem;
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#solution_p{
+    margin-top: 0;
+    margin-bottom: .9rem;
+    font-size: 21px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.text_center{
+  background-color: #e5ecf0c0;
+  text-align: center;
+  margin-top: 2rem;
+  height: 40vh;
+}
+.text_center p{
+  margin-top: 1.5rem;
+  text-align: center;
+  color: #1C1C1C;
+  font-family: "Work Sans", Sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5em;
+  padding: 0 13rem;
+}
+.button_center{
+  margin-top: 2rem;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  transition: background-color 0.3s ease-in-out;
+}
+/* Other styles */
+
+.text_center {
+  background-color: #e5ecf0c0;
+  text-align: center;
+  padding: 2rem 1rem; /* Added padding for better spacing on small screens */
+}
+
+.text_center h1 {
+  font-size: 2rem; /* Adjusted font size for better responsiveness */
+}
+
+.text_center p {
+  margin-top: 1.5rem;
+  color: #1C1C1C;
+  font-family: "Work Sans", Sans-serif;
+  font-size: 1rem; /* Adjusted font size for better responsiveness */
+  font-weight: 400;
+  line-height: 1.5em;
+  padding: 0 1rem; /* Adjusted padding for better responsiveness */
+}
+
+.button_center {
+  margin-top: 2rem;
+}
+
+.text_btn {
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem; /* Adjusted font size for better responsiveness */
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.text_btn:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .text_center p {
+    font-size: 0.875rem; /* Adjust font size for smaller screens */
+    padding: 0 1rem; /* Adjust padding for smaller screens */
+  }
+
+  .text_btn {
+    font-size: 0.875rem; /* Adjust font size for smaller screens */
+    padding: 0.5rem 1rem; /* Adjust padding for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .text_center h1 {
+    font-size: 1.5rem; /* Adjust font size for extra small screens */
+  }
+
+  .text_center p {
+    font-size: 0.75rem; /* Adjust font size for extra small screens */
+    padding: 0 0.5rem; /* Adjust padding for extra small screens */
+  }
+
+  .text_btn {
+    font-size: 0.75rem; /* Adjust font size for extra small screens */
+    padding: 0.5rem 0.75rem; /* Adjust padding for extra small screens */
+  }
+}

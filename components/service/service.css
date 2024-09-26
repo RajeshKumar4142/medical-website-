@@ -1,0 +1,182 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 0 2rem;
+    margin-top: 60px;
+    /* background-color: #e5ecf0c0; */
+    margin-left: 10px;
+  }
+
+  @media (max-width: 767px) {
+    .gallery{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0;
+        padding: 0;
+    }
+}
+  .gallery-item {
+    cursor: pointer;
+    transition: transform 0.2s;
+    margin: 10px;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    border-radius: 10px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  }
+  .gallery_h4{
+    color: #333;
+    font-weight: 600;
+    margin-top: 17px;
+    margin-left: 2.2rem;
+  }
+
+
+  .gallery_button{
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+    /* .gallery-item:hover {
+        transform: scale(1.05);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        transition: 0.4s;
+    }
+    */
+  .carousel-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.878);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .carousel-content {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    background: #fff;    
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .carousel-image {
+    width: 100%;
+    display: block;
+    max-height: 70vh; /* Adjust the height to fit the screen */
+    object-fit: cover;
+  }
+  
+  .carousel-description {
+    padding: 10px;
+    text-align: center;
+    background: #f4f4f4;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #ba3232;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .close-button:hover {
+    background: #cc0000;
+  }
+
+
+
+  /* Add your existing styles here */
+
+/* Modal styles */
+/* Modal styles */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 90%;
+    max-height: 90%;
+    overflow-y: auto; /* Enable scrolling if content exceeds modal size */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .modal-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .modal-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .modal-content a {
+    display: block;
+    font-size: 18px;
+    text-decoration: none;
+    color: #007bff;
+    margin-top: 20px;
+  }
+  
+  /* Gallery item */
+  .gallery-item {
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .gallery_h4 {
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .gallery_button {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
